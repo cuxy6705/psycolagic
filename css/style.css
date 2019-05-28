@@ -6,13 +6,27 @@ font {
   font-family: 'Noto Serif TC', serif;
 }
 
+.container {
+  padding: 0;
+}
+
+.clearmargin {
+  margin: 0;
+}
+
 #app {
-  background-color: #fff;
+  background-color: #edffd0;
 }
 
 .fa-medkit {
   font-size: 20px;
   color: pink;
+}
+
+.logo img {
+  height: 100%;
+  width: 270px;
+  margin: 10px 0px;
 }
 
 .logo h1 {
@@ -56,7 +70,7 @@ font {
 }
 
 .footer {
-  background-color: #fdfcfd;
+  background-color: #E4EBF2;
   padding: 15px 0;
 }
 
@@ -112,8 +126,10 @@ font {
   display: none;
   width: 100%;
   padding: 0.25rem 1.5rem;
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 0.25rem;
+  padding: 0;
+  border: 0;
 }
 
 .new .card {
@@ -130,6 +146,20 @@ font {
   height: 100%;
 }
 
+.moblenav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.moblenav .bg-light {
+  background-color: transparent !important;
+  border-radius: 50px;
+}
+
 .moblenav .dropdown-menu.show {
   padding: 0;
   background: transparent;
@@ -137,14 +167,9 @@ font {
 }
 
 .moblenav .dropdown-item {
-  background: #e1eefb;
+  background: #f1ffa3;
   border-bottom: 1px solid #614949;
-}
-
-.moblenav .dropdown-item:first-of-type {
-  border-radius: 10px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  padding: 0.5rem 1.5rem;
 }
 
 .moblenav .dropdown-item:last-of-type {
@@ -156,6 +181,10 @@ font {
 
 .moblenav .dropdown-item:hover {
   background: #f8f9fa;
+}
+
+.moblenav .dropdown-item.re {
+  padding: 0;
 }
 
 .sectiontitle {
@@ -185,6 +214,18 @@ font {
 .services li article {
   padding: 20px;
   border: 1px solid;
+}
+
+.intro {
+  position: relative;
+}
+
+.intro a {
+  position: absolute;
+  color: #9e9e9e;
+  bottom: 0;
+  right: 0;
+  margin: 0.5rem  1.25rem;
 }
 
 @media screen and (max-width: 860px) {

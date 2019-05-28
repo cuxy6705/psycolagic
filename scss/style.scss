@@ -1,3 +1,6 @@
+$base-green:#edffd0;
+$base-yellow:#f1ffa3;
+$base-div-color:#E4EBF2;
 p,
 a,
 h3,
@@ -5,15 +8,25 @@ input,
 font {
     font-family: 'Noto Serif TC', serif;
 }
-
+.container{
+    padding: 0;
+}
+.clearmargin{
+    margin: 0;
+}
 #app {
-    background-color: #fff;
+    background-color: $base-green;
 }
 .fa-medkit {
     font-size: 20px;
     color: pink;
 }
 .logo {
+    img{
+        height:100%;
+        width: 270px;
+        margin: 10px 0px;
+    }
     h1 {
         color: #9c9090;
         margin-left: 15px;
@@ -45,7 +58,7 @@ font {
     }
 }
 .footer {
-    background-color: #fdfcfd;
+    background-color: $base-div-color;
     padding: 15px 0;
     .row {
         p {
@@ -98,8 +111,10 @@ font {
     display: none;
     width: 100%;
     padding: 0.25rem 1.5rem;
-    background-color: #fff;
+    background-color:transparent;
     border-radius: 0.25rem;
+    padding: 0;
+    border: 0;
 }
 .new {
     .card {
@@ -115,18 +130,25 @@ font {
     }
 }
 .moblenav{
+    display: flex;
+    align-items: center;
+    .bg-light{
+        background-color: transparent!important;
+        border-radius: 50px;
+    }
     .dropdown-menu.show{
         padding: 0;
         background: transparent;
         border: 0;
     }
     .dropdown-item{
-        background: #e1eefb;
+        background: $base-yellow;
         border-bottom: 1px solid #614949;
+        padding: 0.5rem 1.5rem;
         &:first-of-type{
-            border-radius: 10px;
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
+            // border-radius: 10px;
+            // border-bottom-left-radius: 0;
+            // border-bottom-right-radius: 0;
         }
         &:last-of-type{
             border-color: transparent;
@@ -136,6 +158,10 @@ font {
         }
         &:hover{
         background:  #f8f9fa;
+        
+        }
+        &.re{
+            padding: 0;
         }
     }
 }
@@ -161,7 +187,16 @@ font {
     padding: 20px;
     border: 1px solid;
 }
-
+.intro{
+    position: relative;
+    a{
+        position: absolute;
+        color: #9e9e9e;
+        bottom: 0;
+        right: 0;
+        margin: 0.5rem  1.25rem;
+    }
+}
 @media screen and (max-width: 860px) {
     .moblenav {
         position: absolute;
