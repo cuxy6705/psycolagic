@@ -6,6 +6,12 @@ font {
   font-family: 'Noto Serif TC', serif;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .container {
   padding: 0;
 }
@@ -226,6 +232,79 @@ font {
   bottom: 0;
   right: 0;
   margin: 0.5rem  1.25rem;
+}
+
+.about h3 {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.aboutbox {
+  border-color: #c2da9b;
+  -webkit-box-shadow: 0px 0px 5px 5px #c2da9b;
+          box-shadow: 0px 0px 5px 5px #c2da9b;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.aboutbox .text {
+  padding: 20px;
+}
+
+.aboutbox img {
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.read {
+  padding: 20px;
+  text-align: center;
+}
+
+.read .button {
+  color: #FFFFFF;
+  background-color: #A2B70D;
+  border-color: #A2B70D;
+  display: inline-block;
+  padding: 8px 18px 10px;
+  text-transform: uppercase;
+  border: 1px solid;
+  text-decoration: none;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.read .button:hover {
+  border-color: #A2B70D;
+  color: black;
+  background-color: transparent;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.svg svg {
+  cursor: pointer;
+  margin: 0 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.svg svg:nth-of-type(2) {
+  fill: #3b5998;
+}
+
+.svg svg:nth-of-type(3) {
+  fill: #d62976;
+}
+
+.svg svg:nth-of-type(4) {
+  fill: #FF0000;
 }
 
 @media screen and (max-width: 860px) {
