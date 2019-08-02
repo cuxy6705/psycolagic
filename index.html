@@ -7,154 +7,128 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:500" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css' />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./images/person-giving-assistance.png" type="image/x-icon">
+
 </head>
 
 <body>
     <div id="app">
-        <div class="container">
-            <div class="row space-between clearmargin">
-                <div>
-                    <div class="logo row align-items">
-                        <img src="./images/公會LOGO2.png" alt="">
-                        <!-- <h1>社團法人屏東縣諮商心理師公會</h1> -->
-                    </div>
-                </div>
-                <div class="moblenav">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        關於我們
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">公會簡介</a>
-                                        <a class="dropdown-item" href="#">組織架構</a>
-                                        <a class="dropdown-item" href="#">聯絡我們</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        法規專區
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">公會法規</a>
-                                        <a class="dropdown-item" href="#">心理師法規</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        民眾專區
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">我要找心理師</a>
-                                        <a class="dropdown-item" href="#">我要找機構</a>
-                                    </div>
-                                </li>
+        <div class="header">
+            <div class="container">
+                <div class="row space-between clearmargin">
+                    
+                    <div class="moblenav">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            關於我們
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">公會簡介</a>
+                                            <a class="dropdown-item" href="#">組織架構</a>
+                                            <a class="dropdown-item" href="#">聯絡我們</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            法規專區
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">公會法規</a>
+                                            <a class="dropdown-item" href="#">心理師法規</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            民眾專區
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">我要找心理師</a>
+                                            <a class="dropdown-item" href="#">我要找機構</a>
+                                        </div>
+                                    </li>
 
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        會員專區
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <div class="dropdown-item re">
-                                            <a href="#" class="dropdown-item dropdowntwo">我要入會</a>
-                                            <div class="dropdown-menu dropdown2-menu">
-                                                <a class="dropdown-item" href="#">會員登入</a>
-                                                <a class="dropdown-item" href="#">會員註冊</a>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            會員專區
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <div class="dropdown-item re">
+                                                <a href="#" class="dropdown-item dropdowntwo">我要入會</a>
+                                                <div class="dropdown-menu dropdown2-menu">
+                                                    <a class="dropdown-item" href="#">會員登入</a>
+                                                    <a class="dropdown-item" href="#">會員註冊</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-item re">
+                                                <a href="#" class="dropdown-item dropdowntwo">會員資料</a>
+                                            </div>
+                                            <div class="dropdown-item re">
+                                                <a href="#" class="dropdown-item dropdowntwo">會員服務</a>
+                                                <div class="dropdown-menu dropdown2-menu">
+                                                    <a class="dropdown-item" href="#">入會證明</a>
+                                                    <a class="dropdown-item" href="#">退會證明</a>
+                                                    <a class="dropdown-item" href="#">異動申請</a>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="dropdown-item re">
-                                            <a href="#" class="dropdown-item dropdowntwo">會員資料</a>
-                                        </div>
-                                        <div class="dropdown-item re">
-                                            <a href="#" class="dropdown-item dropdowntwo">會員服務</a>
-                                            <div class="dropdown-menu dropdown2-menu">
-                                                <a class="dropdown-item" href="#">入會證明</a>
-                                                <a class="dropdown-item" href="#">退會證明</a>
-                                                <a class="dropdown-item" href="#">異動申請</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">最新消息</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">相關連結</a>
-                                </li>
-                            </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">最新消息</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">相關連結</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div>
+                        <div class="logo row align-items">
+                            <img src="./images/公會LOGO_無字_-removebg.png" alt="">
+                            <div>
+                                <p class="logotext logotext1">社團法人屏東縣諮商心理師公會</p>
+                                <p class="logotext">Pingtung Counseling Psychologist Association</p>
+                            </div>
                         </div>
-                    </nav>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="banner">
-            <div class="container">
-                <div class="row align-items">
-                    <!-- <div class="card">
-                            <div class="card-header">
-                                <h3>登入</h3>
-                                <div class="d-flex justify-content-end social_icon">
-                                    <span><i class="fab fa-facebook-square"></i></span>
-                                    <span><i class="fab fa-google-plus-square"></i></span>
-                                    <span><i class="fab fa-twitter-square"></i></span>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <form>
-                                    <div class="input-group form-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="fas fa-user"></i></span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="username" />
-                                    </div>
-                                    <div class="input-group form-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="fas fa-key"></i></span>
-                                        </div>
-                                        <input type="password" class="form-control" placeholder="password" />
-                                    </div>
-                                    <div class="row align-items-center remember" style=" margin: 0 5px;">
-                                        <input type="checkbox" />記住帳號
-                                    </div>
-                                    <div class="form-group">
-                                        <input
-                                            type="submit"
-                                            value="登入"
-                                            class="btn btn-secondary float-right login_btn"
-                                        />
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="card-footer">
-                                <div class="d-flex justify-content-center links"><a href="#">註冊帳號</a></div>
-                                <div class="d-flex justify-content-center">
-                                    <a href="#">忘記密碼?</a>
-                                </div>
-                            </div>
-                        </div> -->
-                </div>
+
+        <div class="banner swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide b1"></div>
+                <div class="swiper-slide b2"></div>
+                <div class="swiper-slide b3"></div>
+                <div class="swiper-slide b4"></div>
             </div>
         </div>
         <div class="about">
             <div class="container">
                 <div>
-                    <h3>關於我們</h3>
+
+                    <h1> <i class="fas fa-user-friends"></i>最新消息</h1>
                 </div>
                 <div class="flex">
                     <div class="aboutbox">
@@ -162,7 +136,7 @@
                             <img src="./images/box1.jpg" alt="">
                         </figure>
                         <div>
-                            <h3>公會簡介</h3>
+                            <h3>最新消息</h3>
                         </div>
                         <div class="text">
                             <p>【社團法人屏東縣諮商心理師公會支持婚姻平權、多元性別與性別平等教育(包含認識同志教育)】...</p>
@@ -173,14 +147,14 @@
                     </div>
                     <div class="aboutbox">
                         <figure>
-                            <img src="./images/box2.jpg" alt="">
+                            <img src="./images/organization.jpg" alt="">
                         </figure>
                         <div>
-                            <h3>組織架構</h3>
+                            <h3>最新消息</h3>
                         </div>
                         <div class="text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam omnis ipsum
-                                repellendus!</p>
+                            <p>第一屆理事長為黃進南教授(任期:97.11.15~100.10.14)
+                                第二屆理事長為羅瑞玉教授....</p>
                         </div>
                         <div class="read">
                             <a class="button" href="#">Read More »</a>
@@ -191,11 +165,12 @@
                             <img src="./images/box3.jpg" alt="">
                         </figure>
                         <div>
-                            <h3>聯絡我們</h3>
+                            <h3>最新消息</h3>
                         </div>
                         <div class="text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam omnis ipsum
-                                repellendus!</p>
+                            <p>地址：900屏東市民生路4-18號</p>
+                            <p>電話：08-7663800#31358</p>
+                            <p>email：pt.coun@gmail.com</p>
                         </div>
                         <div class="read">
                             <a class="button" href="#">Read More »</a>
@@ -204,7 +179,26 @@
                 </div>
             </div>
         </div>
-        <div class="new">
+        <!-- <div class="banner2">
+            <div class="shw"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="card">
+                        <img src="./images/b2-2.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <a href="#">我要找心理師</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/b2-3.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <a href="#">我要找機構</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="new">
             <div class="container">
                 <div class="card mb-3">
                     <div class="row no-gutters">
@@ -247,13 +241,82 @@
                             <a href="#">more</a>
                         </div>
                         <div class="col-md-6">
-                            <img src="./images/adolescent-adult-beautiful-272760.jpg" class="card-img" alt="" />
+                            <img src="./images/law.jpg" class="card-img" alt="" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <div class="banner3">
+            <div class="shw"></div>
+            <div class="container">
+                <div class="baseinfo">
+                    <p>會址/通訊地址：900屏東市民生路4-18號(民生校區五育樓5樓　國立屏東大學教育心理與輔導學系）</p>
+                    <p>秘書聯繫電話：08-7663800#31358</p>
+                    <p>公會E-Mail：pt.coun@gmail.com</p>
+                    <p>公會Blog：http://ptcoun.blogspot.tw/</p>
+                    <p>郵局代碼：700</p>
+                    <p>郵局帳號：00711980265950</p>
+                </div>
+            </div>
+        </div> -->
+        <div class="div2">
+            <div class="bg"></div>
+            <div class="container">
+                <h1><i class="far fa-file-alt"></i>公告清單</h1>
+                <div class="swiper-container swiper-public">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide pubnewbox">
+                            <div class="tip">
+                                <span>2019/07/21</span>
+                                <span class="type1">最新消息</span>
+                            </div>
+                            <div  class="textbox">
+                                <a href='#'>而來建材均。</a>
+                                <p>孤獨他人可以說人大居民回家警察表現深刻全國好多技術，如同監管戰略，召開成績認證保持精英，功夫比較今。</p>
+                            </div>
+                            <div class="imgbox"></div>
+                        </div>
+                        <div class="swiper-slide pubnewbox">
+                            <div class="tip">
+                                <span>2019/07/21</span>
+                                <span class="type1 type2">新聞內容</span>
+                            </div>
+                            <div class="textbox">
+                                <a href="#">心理諮詢商中心 行政人員錄取公告</a>
+                                <p>孤獨他人可以說人大居民回家警察表現深刻全國好多技術，如同監管戰略，召開成績認證保持精英，功夫比較今。</p>
+                            </div>
+                            <div class="imgbox"></div>
+                        </div>
+                        <div class="swiper-slide pubnewbox">
+                            <div class="tip">
+                                <span>2019/07/21</span>
+                                <span class="type1 type3">課程訊息</span>
+                            </div>
+                            <div  class="textbox">
+                                <a href="#">阿明企業管理整合諮詢有限公司</a>
+                                <p>孤獨他人可以說人大居民回家警察表現深刻全國好多技術，如同監管戰略，召開成績認證保持精英，功夫比較今。</p>
+                            </div>
+                            <div class="imgbox"></div>
+                        </div>
+                        <div class="swiper-slide pubnewbox">
+                            <div class="tip">
+                                <span>2019/07/21</span>
+                                <span class="type1 type4">Q&A</span>
+                            </div>
+                            <div  class="textbox">
+                                <a href="#">興智國際企業管理整合諮詢有限公司</a>
+                                <p>孤獨他人可以說人大居民回家警察表現深刻全國好多技術，如同監管戰略，召開成績認證保持精英，功夫比較今。</p>
+                            </div>
+                            <div class="imgbox"></div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="rightarr"><i class="fas fa-arrow-right"></i></div>
+                <div class="leftarr"><i class="fas fa-arrow-left"></i></div>
+            </div>
+        </div>
         <div class="footer">
             <div class="container">
                 <div class="row align-items space-between">
@@ -285,14 +348,12 @@
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js'></script>
     <script>
+        AOS.init();
         $(document).ready(function () {
             $('.dropdowntwo').hover(function () {
                 $('.dropdown2-menu').hide()
@@ -304,6 +365,38 @@
             $('.dropdown2-menu').mouseleave(function () {
                 $(this).hide()
             })
+
+            var mySwiper = new Swiper('.swiper-container', {
+                loop: true,
+                autoplay: true,
+
+            })
+            var mySwiper2 = new Swiper('.swiper-public', {
+                loop:true,
+                slidesPerView: 3,
+                centeredSlides: true,
+                spaceBetween: '5%',
+                speed: 300,
+                breakpoints: {
+                     1200: {
+                        slidesPerView: 2,
+                        width: 700,
+                    },
+                     768: {
+                        slidesPerView: 1,
+                        width: 320,
+                    },
+                     370: {
+                        width: 280,
+                    },
+                },
+                 navigation: {
+                    nextEl: '.rightarr',
+                    prevEl: '.leftarr',
+                },
+              
+            })
+            
         })
     </script>
 </body>
